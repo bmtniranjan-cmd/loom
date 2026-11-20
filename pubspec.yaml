@@ -1,0 +1,37 @@
+name: loom
+description: "A new Flutter project for vegetable business management."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^2.6.0
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.8
+  flutter_lucide: ^1.11.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Logo.jpg"
